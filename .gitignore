@@ -1,0 +1,5 @@
+# general stuff // intellij
+/.idea
+
+# python stuff
+/venv/
