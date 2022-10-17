@@ -1,0 +1,26 @@
+# -------------------------------------------------------
+######## requirements for framework evaluation ##########
+# -------------------------------------------------------
+
+# read-blf
+python-can~=4.0.0       # can io for blf reading
+cantools~=37.0.7        # dbc conversation
+
+# jupyter packages
+notebook~=6.4.12        # run notebooks in web-browser
+jupyter~=1.0.0
+
+# compare db data with blf
+matplotlib~=3.5.3       # plot data
+openpyxl~=3.0.10        # export csv e.g. with pandas
+
+PyYAML~=6.0             # read yaml files e.g. config
+pandas~=1.4.3           # work with data (e.g. as DataFrame)
+pyarrow~=9.0.0          # read/write parquet files
+scipy~=1.9.1            # cross validation
+numpy~=1.23.2           # work with data, e.g. interpolate
+
+# requirements for serialize compress test
+superjson~=1.0.2        # Package to compress data
+protobuf3~=0.2.1        # Package for googles protocol buffers
+asn1~=2.6.0             # Package for Abstract Syntax Notation One (ASN.1)
